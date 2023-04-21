@@ -1,0 +1,117 @@
+<!--
+Copyright 2023 Signal Messenger, LLC
+SPDX-License-Identifier: AGPL-3.0-only
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/signal.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>Signal Sticker Pack Creator</title>
+  </head>
+  <body>
+    <div id="root">
+      <noscript>
+        <style>
+          * {
+            margin: 0;
+
+            font-family: Inter, 'Helvetica Neue', 'Source Sans Pro',
+              'Source Han Sans SC', 'Source Han Sans CN', 'Hiragino Sans GB',
+              'Hiragino Kaku Gothic', 'Microsoft Yahei UI', Helvetica, Arial,
+              sans-serif;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.08px;
+            color: #1b1b1b;
+          }
+
+          #noscript {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+          }
+
+          header {
+            height: 96px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #dedede;
+            padding: 0 64px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-shrink: 0;
+          }
+
+          header img {
+            margin-right: 8px;
+          }
+
+          header h1 {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 20px;
+            color: #1b1b1b;
+          }
+
+          header a {
+            text-decoration: none;
+            padding: 12px 16px;
+          }
+
+          section#content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+          }
+
+          section#content h3 {
+            font-weight: 800;
+            font-size: 22px;
+            line-height: 32px;
+            margin-bottom: 12px;
+          }
+
+          section#content p {
+            max-width: 381px;
+          }
+        </style>
+        <div id="noscript">
+          <header>
+            <img
+              src="/src/assets/signal.svg"
+              width="47"
+              height="47"
+              alt="Signal"
+            />
+            <h1>Signal Sticker Pack Creator</h1>
+
+            <div style="flex-grow: 1"></div>
+
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://support.signal.org/hc/articles/360031836512-Stickers#sticker_creator"
+            >
+              Sticker Pack Creator Guidelines
+            </a>
+          </header>
+          <section id="content">
+            <h3>JavaScript Disabled</h3>
+            <p>
+              JavaScript is required to use Signal Sticker Pack Creator. Please
+              enable JavaScript and reload the page.
+            </p>
+          </section>
+        </div>
+      </noscript>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
