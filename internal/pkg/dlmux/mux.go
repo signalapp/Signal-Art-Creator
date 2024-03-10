@@ -13,7 +13,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/fasthttp/router"
-	"github.com/go-redis/redis/v8"
+	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog"
 	pkgConfig "github.com/signalapp/art-service/internal/pkg/config"
 )

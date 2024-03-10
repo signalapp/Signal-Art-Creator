@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-redis/redis/v8"
+	"github.com/redis/go-redis/v9"
 	pkgConfig "github.com/signalapp/art-service/internal/pkg/config"
 	"github.com/valyala/fasthttp"
 )
